@@ -10,11 +10,11 @@
 <body>
       <!-- navbar -->
       <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-light">
           <div class="d-flex flex-grow-1">
             <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
-            <a class="navbar-brand" href="index.html">
-              <img src="images/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+            <a id="page-name" class="navbar-brand" href="index.html">
+              <img src="image\54c19d9e-b413-479d-a064-cc3c6617f065_200x200.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
               Musical Pancake
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
@@ -23,28 +23,20 @@
             </button>
             <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNav">
               <ul class="navbar-nav ml-auto flex-nowrap">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="recipes.html">Pancake Recipes<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="recipes.html">Pancake Recipes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="aboutus.html">About us</a>
+                    <a class="nav-link" href="order.html">Create your pancake!</a>
                 </li>
               </ul>
             </div>
           </div>
           </nav>
     </header>
-
-  <!-- breadcrumb -->
-  <nav aria-label="breadcrumb"> 
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Pancake recipes</li>
-    </ol>
-</nav>
 
 <!-- media list -->
 <ul class="list-styled wrap">
@@ -140,12 +132,16 @@
 </nav>
     
 <!-- footer -->
-<footer class="mt-5 pb-5 bg-light">
+<footer class="mt-5 pb-5">
     <div class="container">
       <p class="float-right">
+        <br/>
+        <br/>
         <a class="float-right" href="#">Back to top</a>
       </p>
-      <p>Musical Pancake</p>
+      <br/>
+      <br/>
+      <p id="footer-title">Musical Pancake</p>
       <p>&copy; 2020-2020 All rights reserved</p>
     </div>
   </footer>

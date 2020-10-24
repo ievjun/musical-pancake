@@ -1,3 +1,21 @@
+.navbar {
+    background-color: plum;
+}
+
+footer {
+    background-color: plum;
+}
+
+#footer-title {
+    font-weight: bolder;
+}
+
+
+#page-name {
+    font-weight: bolder;
+}
+
+
 #carouselExampleIndicators {
     padding-bottom: 2cm;
 
@@ -14,4 +32,9 @@
     border-top-style: dotted;
     padding-top: 1cm;
     border-top-color: plum;
+}
+
+.article-item-list {
+    border-bottom: 1px plum solid;
+    border-bottom-style: dotted;
 }
