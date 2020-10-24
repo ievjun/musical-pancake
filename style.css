@@ -29,6 +29,7 @@ footer {
 
 .line {
     text-align: center;
+    
 }
 
 
@@ -50,6 +51,9 @@ footer {
     border-bottom-style: dotted;
 }
 
+body {
+    background-image: url("image/back.jpg");
+    }
 
 /* ORDERS */
 #order-form {
