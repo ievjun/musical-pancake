@@ -57,8 +57,28 @@ footer {
     justify-content: center;
 }
 
-#fill-pancake-form {
-    padding-top: 20px;
-    border-bottom: 1px plum solid;
+#order {
+    padding-top: 10px;
+    border-bottom: 2px plum solid;
     border-bottom-style: dotted;
+}
+
+#choose-pancake {
+    padding-top: 10px;
+    border-bottom: 2px plum solid;
+    border-bottom-style: dotted;
+}
+
+#choose-filling {
+    padding-top: 10px;
+    border-bottom: 2px plum solid;
+    border-bottom-style: dotted;
+}
+
+.ingredients {
+    
+}
+
+.meat {
+   
 }
