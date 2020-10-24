@@ -50,7 +50,7 @@
                 <h3 id="order">Create and order your own Musical Pancake!</h3>
                 <div>
                     <form>
-                        <div class="form-row">
+                        <div class="form-row input-form">
                             <div class="form-group col-md-6">
                                 <label for="inputname">Name</label>
                                 <input type="name" class="form-control" id="inputname">
@@ -76,13 +76,15 @@
                         </div>
                         <div class="form-group">
                             <h4 id="choose-pancake">Choose pancake</h4>
-                            <div>
-                                <input type="radio" name="" id="">
-                                <label for="">Standart</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="" id="">
-                                <label for="">Vegan</label>
+                            <div class="choose-pancake">
+                                <div class="standart">
+                                    <input type="radio" name="" id="">
+                                    <label for="standart">Standart</label>
+                                </div>
+                                <div class="vegan">
+                                    <input type="radio" name="" id="">
+                                    <label for="vegan">Vegan</label>
+                                </div>
                             </div>
                             <div>
                                 <label for="type-field"></label>
@@ -95,8 +97,8 @@
                                 </select>
                             </div>
                             <div>
-                                <label for="country-field"></label>
-                                <select class="form-control" id="country-field">
+                                <label for="dough-field"></label>
+                                <select class="form-control" id="dough-field">
                                     <option value="" disabled selected hidden>Dough*</option>
                                     <option>Wheat flour</option>
                                     <option>Wholegrain</option>
@@ -160,8 +162,7 @@
                                                         <label for="">Pickles</label>
                                                     </div>
                                                  </div>
-                                    </li>
-                                    
+                                                </li>         
                                     <li class="list-group-item">
                                             <div>
                                                 <span>Meat</span>
@@ -284,22 +285,18 @@
                                     </li>
                                 </ul>
                                     <div class="form-group">
-                                        <label for="inputAddress">Add link to your favorite song</label>
+                                        <h4 id="add-link">
+                                            Add link to your favorite song
+                                        </h4>
                                         <input type="text" class="form-control" id="inputAddress" placeholder="https://www.youtube.com/watch?v=wNMZRTROYuw">
                                     </div>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-primary form-group">Order my Musical Pancake</button>
+                            <button type="submit" class="btn-dark form-control">Order my Musical Pancake</button>
                         </form>
                     </div>
-                            </div>
-                           
+                    </div>                     
     </section>
-
-
-
-
-    <!-- footer -->
 <!-- footer -->
 <footer class="mt-5 pb-5">
     <div class="container">
@@ -315,18 +312,12 @@
     </div>
   </footer>
 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-</body>
-
-</html>
-
-
-
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
 </body>
 
 </html>

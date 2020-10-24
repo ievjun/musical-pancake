@@ -2,6 +2,10 @@
     background-color: plum;
 }
 
+.nav-item {
+    font-weight: bold;
+}
+
 footer {
     background-color: plum;
 }
@@ -62,15 +66,35 @@ body {
 }
 
 #order {
-    padding-top: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     border-bottom: 2px plum solid;
     border-bottom-style: dotted;
 }
+
 
 #choose-pancake {
     padding-top: 10px;
     border-bottom: 2px plum solid;
     border-bottom-style: dotted;
+}
+
+.choose-pancake {
+    padding-top: 10px;
+}
+
+.standart {
+    padding-left: 5cm;
+    float: left;
+    display: block;
+    font-weight: 600;
+}
+
+.vegan {
+    padding-right: 5cm;
+    float: right;
+    display: block;
+    font-weight: 600;
 }
 
 #choose-filling {
@@ -79,10 +103,18 @@ body {
     border-bottom-style: dotted;
 }
 
-.ingredients {
-    
+#add-link {
+    padding-top: 10px;
+    border-bottom: 2px plum solid;
+    border-bottom-style: dotted;
 }
 
-.meat {
-   
+span {
+    font-weight: 600;
+}
+
+.btn {
+    color:  plum;
+    color-adjust: solid;
+    font-weight: bold;
 }
