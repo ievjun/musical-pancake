@@ -22,18 +22,29 @@ footer {
 }
 
 
-.col1 {
+#first {
     margin-left:0px;
    
 }
 
+.line {
+    text-align: center;
+}
 
-#style {
+
+#style1 {
     border-top-style: dotted;
     padding-top: 1cm;
     border-top-color: plum;
+    padding-bottom: 1cm;
+   
 }
-
+#up {
+    padding-bottom: 2cm;
+}
+.bottom {
+    padding-top: 1cm; 
+}
 .article-item-list {
     border-bottom: 1px plum solid;
     border-bottom-style: dotted;
