@@ -46,121 +46,245 @@
     <!-- order form-->
     <section class="container">
         <div class="row" id="">
-            <div class="col-4">
-                <h3>Create your own Musical Pancake!</h3>
+            <div class="">
+                <h3>Create and order your own Musical Pancake!</h3>
                 <div>
-                    <label for="country-field" ></label>
-                    <select class="form-control" id="country-field">
-                        <option value="" disabled selected hidden>Type*</option>
-                        <option>Classical</option>
-                        <option>Stuffed</option>
-                        <option>Potato</option>
-                        <option>Vegetable</option>
-                    </select>
-                </div>
-
-                <div>
-                    <label for="country-field" ></label>
-                    <select class="form-control" id="country-field">
-                        <option value="" disabled selected hidden>Dough*</option>
-                        <option>Wheat flour</option>
-                        <option>Wholegrain</option>
-                        <option>Almond</option>
-                        <option>Oat</option>
-                        <option>Buckwheat</option>
-                        <option>Quinoa</option>
-                    </select>
-                </div>
-
-                <div>
-                   <span>Filling</span>
-                   <div>
-                       <input type="checkbox" name="ingredient" id="">
-                       <label for="">Curd</label>
-                   </div>
-                   <div>
-                    <input type="checkbox" name="ingredient" id="">
-                    <label for="">Nutella</label>
-                </div>
-                <div>
-                    <input type="checkbox" name="ingredient" id="">
-                    <label for="">Peanut butter</label>
-                </div>
-                   <div>
-                       <input type="checkbox" name="ingredient" id="">
-                       <label for="">Cheese</label>
-                   </div>
-                   <div>
-                       <input type="checkbox" name="ingredient" id="">
-                       <label for="">Mushrooms</label>
-                   </div>
-                   <div>
-                    <input type="checkbox" name="ingredient" id="">
-                    <label for="">Shrimp</label>
-                </div>
-                <div>
-                    <input type="checkbox" name="ingredient" id="">
-                    <label for="">Tuna</label>
-                </div>
-                <div>
-                    <input type="checkbox" name="ingredient" id="">
-                    <label for="">Salmon</label>
-                </div>
-                <div>
-                    <input type="checkbox" name="ingredient" id="">
-                    <label for="">Meat</label>
-                </div>
-                <div>
-                    <input type="checkbox" name="ingredient" id="">
-                    <label for="">Cheese</label>
-                </div>
-                <div>
-                    <input type="checkbox" name="ingredient" id="">
-                    <label for="">Onions</label>
-                </div>
-                <div>
-                    <input type="checkbox" name="ingredient" id="">
-                    <label for="">Olives</label>
-                </div>
-            </div>
-
-                <div>
-                   <span>Dressing</span>
-                   <div>
-                       <input type="checkbox" name="ingredient" id="">
-                       <label for="">Sour cream</label>
-                   </div>
-                   <div>
-                       <input type="checkbox" name="ingredient" id="">
-                       <label for="">Chocolate</label>
-                   </div>
-                   <div>
-                       <input type="checkbox" name="ingredient" id="">
-                       <label for="">Maple syrup</label>
-                   </div>
-                </div>
-
-                <div>
-                    <span>Jam</span>
-                    <div>
-                        <input type="checkbox" name="ingredient" id="">
-                        <label for="">Strawberry</label>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputname">Name</label>
+                                <input type="name" class="form-control" id="inputname">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputphone">Phone</label>
+                                <input type="phone" class="form-control" id="inputphone">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Address</label>
+                            <input type="text" class="form-control" id="inputAddress">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputCity">City</label>
+                                <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputZip">Zip</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div>
+                                <input type="radio" name="" id="">
+                                <label for="">Standart</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="" id="">
+                                <label for="">Vegan</label>
+                            </div>
+                            <div>
+                                <label for="type-field"></label>
+                                <select class="form-control" id="type-field">
+                                    <option value="" disabled selected hidden>Type*</option>
+                                    <option>Classical</option>
+                                    <option>Stuffed</option>
+                                    <option>Potato</option>
+                                    <option>Vegetable</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="country-field"></label>
+                                <select class="form-control" id="country-field">
+                                    <option value="" disabled selected hidden>Dough*</option>
+                                    <option>Wheat flour</option>
+                                    <option>Wholegrain</option>
+                                    <option>Almond</option>
+                                    <option>Oat</option>
+                                    <option>Buckwheat</option>
+                                    <option>Quinoa</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <h4>Choose filling</h4>
+                                <div>
+                                    <span>Ingredients</span>
+                                </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Curd</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Nutella</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Peanut butter</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Cheese</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Mushrooms</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Tofu</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Soya</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Onions</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Olives</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Tomato</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Pickles</label>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span>Meat</span>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Ham</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Bacon</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Beef</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Pork</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Chicken</label>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span>Seafood</span>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Salmon</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Tuna</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Shrimp</label>
+                                        </div>
+                                    </div>
+    
+                                    <div>
+                                        <span>Dressing</span>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Sour cream</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Chocolate</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Maple syrup</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Caramel souce</label>
+                                        </div>
+                                    </div>
+    
+                                    <div>
+                                        <span>Jam</span>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Strawberry</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Raspberry</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Cherry</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Apricot</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Peach</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Apple</label>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span>Topping</span>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Fresh strawberries</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Fresh raspberries</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Fresh blueberries</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Banana</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Almonds</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Hazelnuts</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="ingredient" id="">
+                                            <label for="">Seed MIX</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputAddress">Add link to your favorite song</label>
+                                        <input type="text" class="form-control" id="inputAddress">
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Order my Musical Pancake</button>
+                        </form>
                     </div>
-                    <div>
-                        <input type="checkbox" name="ingredient" id="">
-                        <label for="">Raspberry</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="ingredient" id="">
-                        <label for="">Cherry</label>
-                    </div>
-                 </div>
-
-            </div>
-        </div>
-
+                            </div>
+                           
     </section>
-  
+
 
 
 
