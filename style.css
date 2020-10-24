@@ -29,6 +29,7 @@ footer {
 
 .line {
     text-align: center;
+    
 }
 
 
@@ -49,3 +50,7 @@ footer {
     border-bottom: 1px plum solid;
     border-bottom-style: dotted;
 }
+
+body {
+    background-image: url("image/back.jpg");
+    }
